@@ -4,5 +4,5 @@ increased the computation because standalone creating about 120,000 entries took
 hassle.
 
 In order to run the application on a local machine create a python environmnet and install the requirements. And on the browser visit localhost
-Only queries of branches and banks are there, you can fetch the details of all the banks by the bank_id and branches by ifsc code visit "sample.txt" for sample queries
+Only queries of branches and banks are there, you can fetch the details of all the banks by the bank_id and branches by ifsc code visit "sample.txt" for sample queries and snapshots are available in the repo 
 Total time taken to complete the assignment 5-6 hrs
