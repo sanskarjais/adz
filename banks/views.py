@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .populate import do_branch, do_bank
+# from .populate import do_branch, do_bank
 # Create your views here.
 
 populate = False
