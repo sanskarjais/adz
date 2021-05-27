@@ -1,0 +1,30 @@
+// Query getting bank details by bid "bank_id"
+
+query{
+  banks(bid:25){
+    name
+  }
+}
+
+query{
+  banks(bid:26){
+    name
+    branches{
+      city
+    }
+  }
+}
+
+// Query for getting branches by ifsc code
+query{
+  branches(ifsc:"ZSBL0000321"){
+    bank{
+      name
+    }
+    address
+    district
+    city
+    state
+  
+  }
+}
